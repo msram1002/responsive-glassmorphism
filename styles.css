@@ -121,7 +121,7 @@ section.active .content {
 
 section .content h2 {
   color: #fff;
-  font-size: 12vw;
+  font-size: 10vw;
   line-height: 0.55rem;
   text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
   text-transform: capitalize;
@@ -226,14 +226,7 @@ section .navigation li a:hover {
   }
 
   section .content h2 {
-    font-size: 18vw;
-  }
-
-  section .content h3 {
-    font-size: 1rem;
-    font-weight: 300;
-    letter-spacing: 0.15rem;
-    padding: 0 0.25rem;
+    font-size: 16vw;
   }
 
   section .content {
@@ -242,6 +235,13 @@ section .navigation li a:hover {
 
   section .navigation {
     left: 25%;
+  }
+
+  section .content h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0.15rem;
+    padding: 0 0.25rem;
   }
 }
 
@@ -263,7 +263,7 @@ section .navigation li a:hover {
   }
 
   section .content h2 {
-    font-size: 15vw;
+    font-size: 12vw;
   }
 
   section .content h3 {
