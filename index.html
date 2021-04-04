@@ -12,10 +12,16 @@
   <section>
     <header>
       <a href="#" class="logo">Travel</a>
-      <div class="toggle"></div>
+      <div class="toggle" onclick="menuToggle();"></div>
     </header>
     <video src="water.mp4" autoplay muted loop></video>
   </section>
+  <script text="type/javascript">
+    function menuToggle() {
+      const toggleMenu = document.querySelector('.toggle');
+      toggleMenu.classList.toggle('active');
+    }
+  </script>
 </body>
 
 </html>
