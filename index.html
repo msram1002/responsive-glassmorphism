@@ -15,12 +15,18 @@
       <div class="toggle" onclick="menuToggle();"></div>
     </header>
     <div class="glass"></div>
+    <div class="content">
+      <h2>never stop...</h2>
+      <h3>exploring the world</h3>
+    </div>
     <video src="water.mp4" autoplay muted loop></video>
   </section>
   <script text="type/javascript">
     function menuToggle() {
       const toggleMenu = document.querySelector('.toggle');
+      const section = document.querySelector('section');
       toggleMenu.classList.toggle('active');
+      section.classList.toggle('active');
     }
   </script>
 </body>
